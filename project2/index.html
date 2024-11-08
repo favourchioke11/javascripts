@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <section class="container">
+        <!-- <ul>
+            <li onclick="bio()">Bio</li>
+            <li onclick="profile()">Profile</li>
+            <li onclick="security()">Security</li>
+        </ul> -->
+
+        <ul>
+            <li class="link" onclick="openTab(event,'tabContent')">Bio</li>
+            <li class="link" onclick="openTab(event,'tabContent1')">Profile</li>
+            <li class="link" onclick="openTab(event,'tabContent2')">Security</li>
+        </ul>
+
+        <div class="content" id="content">
+            <div class="tabContent" id="tabContent">
+                <h2>Bio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempora sunt mollitia adipisci
+                    non velit iusto expedita natus quo officia, ea accusantium amet, provident ipsam aut rerum odit et!
+                    Id.</p>
+            </div>
+            <div class="tabContent" id="tabContent1">
+                <h2>Profile</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque vitae quo quas non distinctio?
+                    Nihil sed sapiente quos autem ex architecto commodi debitis non dolorem eaque laboriosam quaerat,
+                    nulla eveniet!</p>
+            </div>
+            <div class="tabContent" id="tabContent2">
+                <h2>Security</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illo molestias mollitia, eos
+                    fugiat ullam quam dolore non, quasi totam quas! Voluptates ex facere repudiandae recusandae culpa
+                    aliquid veniam saepe!</p>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script/script.js"></script>
+    <script src="script/script1.js"></script>
+</body>
+
+</html>

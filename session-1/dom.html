@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="title">Document Object Model </h1>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, consequatur reiciendis numquam doloremque earum
+        tenetur ipsam repellat consectetur consequuntur et cupiditate facere nesciunt molestias accusantium ullam quae
+        dolorum nemo dicta.</p>
+
+
+    <div id="box"></div>
+
+    <button onclick="create()" id="create-button">Create Element</button>
+
+    <h2 id="h2">Array is a set of conatainer that holds more than one datatype</h2>
+
+
+    <ul id="list">
+        <li>Figma</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>ES6</li>
+        <li>React</li>
+        <li>Next JS</li>
+        <li>FIREBASE</li>
+        <li>App write</li>
+        <li>CLERK</li>
+
+    </ul>
+
+    <div id="contain">
+        <button onclick="createList()" id="enterList">Create Lists</button>
+    </div>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorem voluptatibus debitis temporibus,
+        ipsum voluptates consectetur eligendi, itaque qui nemo, voluptas dolore. Optio itaque laudantium nam animi
+        recusandae. Explicabo, est!
+    </div>
+
+    <button id="btn" onclick="changeTitle()">Change Title</button>
+
+    <br>
+
+    <button id="button" onclick="welcome()">click</button>
+
+    <button id="btn2" onclick="changeSubtitle()">change h2</button>
+
+    <form action="">
+
+        <input id="inp" type="text" value="what is your name">
+        <input type="text" id="subTitle">
+
+
+    </form>
+
+
+
+    <script>
+
+        function changeTitle() {
+            var change = prompt("change the title")
+            var h1 = document.getElementById("title")
+            h1.innerHTML = change
+            // console.log(h1)
+        }
+        // changeTitle()
+
+        function welcome() {
+            alert("welcome")
+
+        }
+
+        var inputTitle = document.getElementById("inp").value
+        console.log(inputTitle)
+
+        function changeSubtitle() {
+            var title = document.getElementById("subTitle").value
+            document.getElementById("h2").innerHTML = title
+        }
+
+        function create() {
+            var h3 = document.createElement("h3")
+            var idBox = document.getElementById("box")
+            idBox.appendChild(h3)
+            console.log(h3)
+        }
+
+        var lists = document.getElementById("list")
+        var li = document.createElement("li")
+        li.innerHTML = "Favour"
+        lists.appendChild(li)
+
+        function createList() {
+            var contain = document.getElementById("contain")
+            var lixts = prompt("Add the list of the things you want")
+            var lixt = document.createElement("li")
+            lixt.innerHTML = lixts
+            contain.appendChild(lixt)
+        }
+
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        // // WHILE LOOP
+        // var count = 0
+        // while (count < 10) {
+        //     document.write('<h1> FAVOUR </h1>');
+        //     count++;
+        // }
+
+        // var num = 1
+        // while (num <= 10) {
+        //     document.write("</br>" + num);
+        //     num++;
+        // }
+
+
+        // // num = +1
+
+        // // DO WHILE LOOP
+        // var number = 1
+
+        // do {
+        //     if (number % 2 == 0) {
+        //         document.write("<h1>" + number + "</h1>")
+        //     }
+        //     number++
+        // } while (number <= 20);
+
+
+        // var figure = 1
+
+        // do {
+        //     if (figure % 2 == 0) {
+        //         document.write("<h1>tik</h1>")
+        //     } else if (figure % 3 == 0) {
+        //         document.write("<h1>tok</h1>")
+        //     } else {
+        //         document.write("<h1>tiktok</h1>")
+        //     }
+        //     figure++
+        // } while (figure <= 20);
+
+        // // FOR LOOP
+
+        // for (var name = 1; name <= 3; name++) {
+        //     document.write("<h1>Favour</h1>")
+        // }
+
+        // //  GUESSING GAME
+        alert("WELCOME TO A GUESSING GAME, THE COMPUTER IS GOING TO PICK A NUMBER FROM 0 TO 3")
+        var randomNum = Math.floor(Math.random() * 3);
+        // console.log("randonNum", randomNum)
+        var pickNum = prompt("guess the number");
+        num = 2
+
+        while (num <= 3) {
+            if (pickNum == randomNum) {
+               alert("CONGRATULATIONS");
+            } else if (pickNum !== randomNum) {
+                prompt("guess the number")
+               alert("WRONG")
+                num++
+            }
+                
+        }
+
+        // do {
+        //     if (pickNum == randomNum) {
+        //         document.write("CONGRATULATIONS")
+        //     } else if (pickNum !== randomNum) {
+        //         prompt("pick a random number")
+        //         document.write("WRONG")
+        //     }
+        //     num++
+        // } while (num <= 3);
+
+        // ODD AND EVEN NUMBER
+
+        // var pickRandom = Math.floor(Math.random() * 10);
+        // var randomAnswer = prompt(pickRandom)
+        // var even = parseInt(even) 
+
+        // while(even >= 30){
+        //     if (even % 2 == 0){
+        //         document.write("even")
+        //     }else{
+        //         document.write("odd")
+        //     }
+        //     even ++
+        // }
+
+
+
+
+        // MINI TO-DO LIST
+
+        // alert("MINI TO-DO LIST")
+        // var input = prompt("How many item do u want")
+        // var number = parseInt(input)
+        // var num = 1
+        // do {
+        //    if (num == input){
+        //         document.write("<input>add list</input>")
+        //     }
+        //     num++
+        // } while (num >= 4)
+
+
+
+
+
+
+
+
+
+
+
+        // console.log("randomNum", randomNum);
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

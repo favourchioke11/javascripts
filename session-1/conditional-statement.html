@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!---- CONDITIONAL STATEMENT -->
+
+    <script>
+        // CONDITIONAL STATEMENT
+        // var num = prompt("input any number ")
+        // if (num > 50) {
+        // alert("Yes")
+        // }else{
+        // alert("NO")
+        // }
+
+        // GRADE SYSYTEM USING CONDITIONAL STATEMENT
+
+        var totalNum = prompt("Enter your total score");
+        var msg
+        var totalNum = parseInt(totalNum);
+        if (typeof totalNum !== "number") {
+            msg = "only numbers"
+        } else {
+
+            if (totalNum >= 70) {
+                msg = "A is ur grade congrats"
+            } else if (totalNum >= 60) {
+                msg = "B is ur grade"
+            } else if (totalNum >= 50) {
+                msg = "C is ur grade"
+            } else if (totalNum > 35) {
+                msg = "D is ur grade"
+            } else {
+                msg = "F"
+            }
+        }
+
+        alert(msg);
+
+
+        // alert("welcome to conditional statement assignment");
+        // var num = prompt("add a number");
+        // num = parseInt(num);
+        // if (num % 2 == 0) {
+        //     alert("this is an even number")
+        // } else if (num % 2 == 1) {
+        //     alert("this is an odd number")
+        // } else if (num === 2 || num === 3 || num === 5 || num === 7) {
+        //     alert("this is a prime number")
+        // } 
+        
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        // ARRAY OF OBJECTS
+
+        // var student = new Object()
+        // student.name = "Favour"
+        // student.age = 12
+        // student.pc = "hp"
+        // student.stack = "frontend"
+        // student.level = "intermidiate"
+        // console.log(student)
+        // document.write(student.name)
+
+        // var car = {
+        //     brand: "Honda",
+        //     model: 2024,
+        //     name: "Honda Accord",
+        //     colour: "black"
+        // }
+        // document.write(car.brand)
+
+
+        var questions = [
+            {
+                question: "president of Nigeria",
+                answer: "tinubu"
+            },
+            {
+                question: "alphabet after C",
+                answer: "d"
+            },
+            {
+                question: "what number is after 1",
+                answer: 2
+            },
+            {
+                question: "what is your level",
+                answer: "intermidiate"
+            }
+        ]
+        for (let i = 0; i < questions.length; i++) {
+            // const element = array[i];
+            var ans = prompt(questions[i].question)
+             var answers =  questions[i].answer
+
+            if (ans === answers){
+                alert("correct")
+            }else{
+                alert("wrong")
+            }
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>

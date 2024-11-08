@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // CREATING A FUNCTION
+        // function sayHello() {
+        //     alert("HELLO")
+        // }
+
+        // // INVOKING/CALLING A FUNCTION
+        // sayHello()
+
+
+        // function add() {
+        //     var y = 20
+        //     var x = 30
+        //     var result = x + y
+        //     alert(result)
+        // }
+
+        // add()
+
+        // function addTwoNum(num1,num2=2){
+        //     alert(num1+num2)
+        // }
+        // addTwoNum(30,30)
+
+        //     function addTwoNum(num1,num2){
+        //         alert(num1+num2)
+        //     }
+        //     // addTwoNum(30,30)
+        //     // addTwoNum(40,30)
+        //     // addTwoNum(60,30)
+
+        //    var num1 = parseInt(prompt("input a number")) 
+        //    var num2 = parseInt(prompt("input another number")) 
+
+        //    addTwoNum(num1,num2)
+
+
+        // FUNCTION WITH A RETURN STATEMENT
+
+        // function addTwoNum(num1, num2) {
+        //     var result = num1 + num2
+        //     return result
+        // }
+        // // addTwoNum(30,30)
+        // // addTwoNum(40,30)
+        // // addTwoNum(60,30)
+
+        // var num1 = parseInt(prompt("input a number"))
+        // var num2 = parseInt(prompt("input another number"))
+
+        // var result = addTwoNum(num1, num2)
+        // document.write("<h1>" + result + "</h1>")
+
+        // function welcomeMessage() {
+        //     var userName = prompt("write your name")
+        //     alert("WELCOME " + userName)
+        // }
+        // welcomeMessage()
+
+
+        // WITH AN ARGUMENT
+
+        // function welcomeMessage(userName) {
+        //     // var userName = prompt("write your name")
+        //     alert("WELCOME " + userName)
+        // }
+        // var userName = prompt("write your name")
+        // welcomeMessage(userName)
+
+        
+        // WITH AN ARGUMENT
+
+        function welcomeMessage(user) {
+            // var userName = prompt("write your name")
+            alert("WELCOME " + userName)
+        }
+        var userName = prompt("write your name")
+        welcomeMessage(userName)
+
+        //ATTEMPT QUIZ
+
+        // var questions = ["president of Nigeria", "alphabet after C", "which class are we attending",
+        //     "what number is after 1", "which class is this"]
+        // var answers = ["tinubu", "D", "javascript", "2", "script-route"]
+        // mark = 10
+        // var score = 0
+        // var correctAnswer = 0
+        // wrongAnswer = 0
+        // var percentage
+
+        // for (let i = 0; i < questions.length; i++) {
+        //     var answer = prompt(questions[i]).toLowerCase()
+        //     if (answer === answers[i].toLowerCase()) {
+        //         // score = score + mark or
+        //         score += mark
+        //         correctAnswer++
+        //     }
+
+        // }
+        // percentage = (correctAnswer / questions.length) * 100
+        // document.write("<h1>QUIZ SUMMARY</h1>")
+        // document.write("<h3>Correctly answered " + correctAnswer + "</h3>")
+        // document.write("<h3>Total " + score + "</h3>")
+        // document.write("<h3>Correctly answered " + percentage + "%" + "</h3>")
+
+        // if (percentage >= 60) {
+        //     document.write("<h3>CONGRATULATION</h3>")
+        // }
+
+
+
+        //  QUIZ ATTEMPT USING FUNCTION
+        function quiz() {
+            var questions = ["president of Nigeria", "alphabet after C", "which class are we attending",
+                "what number is after 1", "which class is this"]
+            var answers = ["tinubu", "D", "javascript", "2", "script-route"]
+            mark = 10
+            var score = 0
+            var correctAnswer = 0
+            wrongAnswer = 0
+            var percentage
+            for (let i = 0; i < questions.length; i++) {
+                var answer = prompt(questions[i]).toLowerCase()
+                if (answer === answers[i].toLowerCase()) {
+                    // score = score + mark or
+                    score += mark
+                    correctAnswer++
+                }
+
+            }
+            percentage = (correctAnswer / questions.length) * 100
+            document.write("<h1>QUIZ SUMMARY</h1>")
+            document.write("<h3>Correctly answered " + correctAnswer + "</h3>")
+            document.write("<h3>Total " + score + "</h3>")
+            document.write("<h3>Correctly answered " + percentage + "%" + "</h3>")
+
+            if (percentage >= 60) {
+                document.write("<h3>CONGRATULATION</h3>")
+            }
+        }
+        quiz()
+
+
+        // function areaOfCircle(){
+        //     var pi = Math.PI;
+        //     var r 
+        //     var area = (radius,pi)
+        //    return 2*pi*r
+        //     document.write("<h3>Total " + area + "</h3>")
+        // }
+        // areaOfCircle(r = 12)
+
+
+    </script>
+</body>
+
+</html>

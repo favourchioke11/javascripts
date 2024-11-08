@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid #ffffff;
+    /* align-content: center; */
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+header img {
+    width: 50px;
+    margin-top: 20px;
+}
+
+header h1{
+    margin: 20px;
+    color: #ca8d8d;
+    /* text-decoration-line: line-through; */
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 300;
+}
+form input{
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background: #ececec;
+    outline: none;
+    width: 50%; 
+    margin: 15px;
+}
+
+form input:hover{
+    background: #e3cfcf;
+}
+
+form button{
+    font-size: 20px;
+    padding: 6.5px;
+    width: 50px;
+    border-radius: 3px;
+    border: none;
+    background: #ececec;
+    outline: none;
+}
+
+form button:hover{
+    background: #e3cfcf;
+}
+
+.box{
+    margin: 10px;
+}
+
+.box .boxes{
+    margin: 15px;
+}
+
+.box .boxes button{
+    font-size: 15px;
+    padding: 4px;
+    width: 50px;
+    border-radius: 3px;
+    border: none;
+    background: #ececec;
+    outline: none;
+}
+
+.box .boxes button:hover{
+    background: #e3cfcf;
+}
+
+.box .boxes input{
+    
+}
+
+.box .boxes li{
+    font-size: 18px;
+    color: #ca8d8d;
+    text-decoration: line-through;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+footer p{
+    margin: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 95px;
+    font-style: italic;
+    text-align: end;
+}
+

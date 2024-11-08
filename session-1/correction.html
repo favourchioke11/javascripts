@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        // // GUESSING GAME
+
+        var number = Math.floor(Math.random() * 2) + 1;
+        var attempt = 3
+        var count = 1
+        while (count <= attempt) {
+            var answer = prompt("Enter your guess")
+            answer = parseInt(answer)
+            if (answer == number) {
+                alert("congratulation")
+                count = +100
+                // break;
+            } else {
+                alert("incorrect")
+            }
+            count++
+        }
+        alert("you have completed your attempt");
+
+        // // EVEN AND ODD NUMBER
+
+        var randomNum = Math.floor(Math.random() * 100) + 1;
+        var oddEven = prompt("is " + randomNum + " odd or even");
+
+        if (randomNum % 2 == 0 && oddEven == "even") {
+            alert("is an even")
+        } else if (randomNum % 2 !== 0 && oddEven == "odd") {
+            alert("is an odd")
+        } else {
+            alert("incorrect")
+        }
+
+        // MINI TO-DO LIST
+
+        function miniToDo() {
+            var title = prompt("Enter list title");
+            var numList = parseFloat(prompt("list number"))
+            var lists = ""
+            var counts = 1
+            while (counts <= numList) {
+                var list = prompt("Add list " + counts) + "</br>";
+                lists = lists + list
+                counts++
+            }
+            document.write("<hi> " + title + "</h1>" + "</br>");
+            document.write(lists)
+
+        }
+        miniToDo()
+
+
+
+    </script>
+</body>
+
+</html>

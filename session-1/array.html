@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        //  ARRAY
+
+        // var students = new Array()
+
+        // students [0] = 'naza'
+        // students [1] = 'chisom'
+        // students [2] = 'favour'
+        // students [3] = 'chioma'
+        // students [4] = 'dera'
+        // students [5] = 'iyke'
+
+        // document.write (students) + "</br>";
+
+
+
+        // var newStudents = ['naza', 'chisom', 'favour', 'chisom', 'dera', 'iyke', 'akachukwu']
+        // newStudents[7] = 'CJ'
+        // newStudents.push('onyi')
+        // document.write(newStudents.length)
+        // document.write(newStudents + "</br>")
+
+
+
+
+        // document.write("<h1> my name is " + newStudents[2] + "<h1>")
+        // document.write("<h1> my name is " + newStudents[6] + "<h1>")
+
+        // // LOOPING  THROUGH AN ARRAY
+        // var pupil = ['naza', 'chisom', 'favour', 'chisom', 'dera', 'iyke', 'akachukwu']
+        // pupil[7] = 'CJ'
+        // pupil.push('onyi')
+        // document.write(pupil.length)
+        // document.write("<ol>")
+        // for (var i = 0; i < pupil.length; i++)
+        //     document.write("<li>" + pupil[i] + "</li>")
+
+
+        // document.write("</ol>")
+
+        // // MULTI-DIMENSIONAL ARRAY
+
+        // var studentBio = []
+        // var naza = [71, 'black', 'Enugu', 'Single']
+        // var iyke = [18, 'blue', 'Abia', 'married']
+        // var chisom = [16, 'pink', 'USA', 'undefined']
+        // document.write(studentBio = [naza, iyke, chisom])
+
+        // // document.write(studentBio[0] = naza)
+        // // document.write(studentBio[1] = iyke + "</br>")
+        // // document.write(studentBio.push(iyke))
+        // var education = ['boys', 'methodist', 'UNN']
+        // document.write(studentBio[0].push(education))
+
+        // TO-DO LIST USING ARRAY AND LOOP
+
+        // alert("WELCOME")
+        // var title = prompt("your list title")
+        // var listLength = parseInt(prompt("number of the list"))
+        // var lists = []
+        // for (var x = 0; x < listLength; x++) {
+        //     var list = prompt("Add your list")
+        //     lists.push(list)
+        // }
+        // document.write("<h1>" + title + "</h1>")
+        // document.write("<ol>")
+        //     for (var x = 0; x < lists.length; x++){
+        //         document.write("<li>" + lists [x] + "</li>" )
+        //     } 
+        // document.write("</ol>")
+
+        // MODIFIED TO-DO LIST
+
+        alert("welcome to mini to-do list")
+        var head = prompt("your list title")
+        // end = "end"
+        // var dynamic = toString(end)
+        var products = []
+        // for (var y = 0; y >= products; y++) {
+        //     var product = prompt("type end to terminate the list")
+        //     // dynamic++
+        //      dynamic =  products + product
+        //     if (dynamic === end) {
+        //         break;
+        //     }
+        // }
+
+        while (product !== "end") {
+            var product = prompt("type 'end' to terminate the list")
+            products.push(product)
+        }
+        document.write("<h1>" + head + "</h1>")
+
+        document.write("<ol>")
+        for (var y = 0; y < products.length; y++) {
+            document.write("<li>" + products[y] + "</li>")
+        }
+        document.write("</ol>")
+
+
+    </script>
+</body>
+
+</html>
